@@ -30,7 +30,7 @@ export default function SubForm() {
   return (
     <form
       onSubmit={handleSubmit(onSubscribe)}
-      className="bg-grey-700 border-grey-600 rounded-2xl p-8 space-y-6 w-full md:max-w-[440px]"
+      className="bg-grey-700 border border-grey-600 rounded-2xl p-8 space-y-6 w-full md:max-w-[440px]"
     >
       <h2 className="font-heading font-semibold text-grey-200 text-xl">
         Incrição
